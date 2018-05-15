@@ -68,14 +68,14 @@
 <distributionManagement>
 	<repository>
 		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
-		<url>http://35.229.119.40:8081/repository/maven-releases/</url>
+		<name>deployrel</name>
+		<url>http://35.229.119.40:8081/repository/deployrel/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
-		<url>http://35.229.119.40:8081/repository/maven-snapshots/</url>
+		<name>deploysnap</name>
+		<url>http://35.229.119.40:8081/repository/deploysnap/</url>
 	</snapshotRepository>
 </distributionManagement>
 
